@@ -1,4 +1,3 @@
-
 let outputHtml = document.getElementById('output');
 
 let startIndex = 5
@@ -10,8 +9,8 @@ for (let i = 0; i < 6; i++) {
     outputHtml.append(box);
     if(j >= startIndex && j <= endIndex){
       box.classList.add('colored');
+    }
   }
-  startIndex--
-  endIndex++
-  }
+startIndex--
+endIndex++
 }
